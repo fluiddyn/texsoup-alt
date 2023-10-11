@@ -34,7 +34,7 @@ class PyTest(test_command):
 VERSION = '0.3.1'
 
 setup(
-    name="TexSoup",
+    name="texsoup-alt",
     version=VERSION,
     author="Alvin Wan",
     author_email='hi@alvinwan.com',
@@ -44,12 +44,12 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="BSD",
-    url="https://github.com/alvinwan/TexSoup",
+    url="https://github.com/fluiddyn/texsoup-alt",
     packages=['TexSoup'],
     cmdclass={'test': PyTest},
     tests_require=tests_require,
     install_requires=install_requires,
-    download_url='https://github.com/alvinwan/TexSoup/archive/%s.zip' % VERSION,
+    download_url='https://github.com/fluiddyn/texsoup-alt/archive/%s.zip' % VERSION,
     classifiers=[
         "Topic :: Utilities",
         "Intended Audience :: Developers",
